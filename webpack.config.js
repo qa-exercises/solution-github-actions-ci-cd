@@ -10,7 +10,6 @@ const __dirname = path.dirname(__filename)
 const config /** @type { import('webpack').Configuration } */ = {
     mode: 'production',
     entry: './src/index.ts',
-    devtool: 'inline-source-map',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
