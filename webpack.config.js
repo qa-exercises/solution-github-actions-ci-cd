@@ -13,7 +13,7 @@ const config /** @type { import('webpack').Configuration } */ = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/',
+        publicPath: './',
     },
     resolve: {
         extensions: ['.ts', '.js', '.css'],
