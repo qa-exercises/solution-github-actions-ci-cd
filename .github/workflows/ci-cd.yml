@@ -39,7 +39,7 @@ jobs:
       # Transpile TypeScript and bundle application to /dist folder
       - run: npm run build
       
-      # Set up GitHub Pages and create upload build artifact
+      # Set up GitHub Pages and upload build artifact
       - name: Set up Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
